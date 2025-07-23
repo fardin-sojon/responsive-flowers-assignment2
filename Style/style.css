@@ -81,7 +81,7 @@
 .fresh-flowers {
     align-items: end;
     margin: 0 auto;
-    padding-top: 100px ;
+    padding-top: 100px;
 }
 
 .left-fresh-flowers {
@@ -153,13 +153,52 @@
 .btn-style {
     color: white;
     background-color: #E95A08;
-    font-weight:600;
+    font-weight: 600;
     border: none;
     padding: 19px 80px;
     width: 100%;
 }
 
+/* Flower & Plants Lover */
 
+.nature-lover {
+    gap: 100px;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.left-lover {
+    width: 50%;
+}
+
+.right-lover {
+    width: 50%;
+}
+
+.nature-love-images {
+    width: 100%;
+    position: relative;
+}
+
+.nature-lover-title {
+    width: 70%;
+    margin: -30px;
+    margin-bottom: 10px;
+}
+
+.list-items li {
+    padding: 10px 0;
+}
+
+
+
+#trusted-badge {
+    width: 220px;
+    margin-right: -500px;
+    position: absolute;
+    top: 1950px;
+    left: 770px;
+}
 
 
 
@@ -217,11 +256,49 @@
         padding: 0 20px;
 
     }
-    .plant-description{
+
+    .plant-description {
         width: 100%;
         padding: 20px;
     }
-    .btn-style{
+
+    .btn-style {
         padding: 19px;
     }
+
+    /* Flower & Plants Lover */
+    #trusted-badge {
+        width: 0px;
+        margin-right: -500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        visibility: hidden;
+    }
+
+    .nature-lover {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .left-lover {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .right-lover {
+        width: 100%;
+        padding: 0 40px;
+    }
+    .nature-lover-title{
+        width: 100%;
+        font-size: 1.9rem;
+        margin: -10px;
+        margin-bottom: 10px;
+    }
+    .list-items li{
+        font-size: 1rem;
+    }
+
+
 }
