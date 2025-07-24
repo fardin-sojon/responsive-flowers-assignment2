@@ -251,7 +251,7 @@
     justify-content: center;
     color: white;
     font-size: 1.25rem;
-    filter: brightness(80%);
+    filter: brightness(70%);
 }
 
 .flower-bg-3 {
@@ -521,5 +521,8 @@ footer {
     }
     .flower-bg-3{
         font-size: 1.25rem;
+    }
+    .flower-bg-2{
+        border-radius: 0;
     }
 }
